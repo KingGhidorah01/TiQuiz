@@ -31,19 +31,19 @@ class MainActivityTest {
     @Test
     fun showsFirstQuestionOnLaunch() {
         onView(withId(R.id.question_text_view))
-            .check(matches(withText(R.string.question_australia)))
+            .check(matches(withText(R.string.question_gb)))
     }
 
     @Test
     fun showsSecondQuestionAfterNextPress() {
         onView(withId(R.id.next_button)).perform(click())
-        onView(withId(R.id.question_text_view)).check(matches(withText(R.string.question_oceans)))
+        onView(withId(R.id.question_text_view)).check(matches(withText(R.string.question_grafica)))
     }
 
     @Test
     fun handlesActivityRecreation() {
         onView(withId(R.id.next_button)).perform(click())
         scenario.recreate()
-        onView(withId(R.id.question_text_view)).check(matches(withText(R.string.question_oceans)))
+        onView(withId(R.id.question_text_view)).check(matches(withText(R.string.question_grafica)))
     }
 }

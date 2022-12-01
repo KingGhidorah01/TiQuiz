@@ -14,12 +14,16 @@ class QuizViewModel(private val savedStateHandle: SavedStateHandle) : ViewModel(
         set(value) = savedStateHandle.set(CURRENT_INDEX_KEY, value)
 
     private val questionBank = listOf(
-        Question(R.string.question_australia, true),
-        Question(R.string.question_oceans, true),
-        Question(R.string.question_mideast, false),
-        Question(R.string.question_africa, false),
-        Question(R.string.question_americas, true),
-        Question(R.string.question_asia, true)
+        Question(R.string.question_gb, true),
+        Question(R.string.question_grafica, true),
+        Question(R.string.question_mouse, false),
+        Question(R.string.question_linux, false),
+        Question(R.string.question_twitter, true),
+        Question(R.string.question_rgb, false),
+        Question(R.string.question_ram, true),
+        Question(R.string.question_ssd, true),
+        Question(R.string.question_halo, false),
+        Question(R.string.question_pro, false),
     )
 
     var isCheater: Boolean

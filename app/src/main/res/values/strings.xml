@@ -1,11 +1,15 @@
 <resources>
-    <string name="app_name">GeoQuiz</string>
-    <string name="question_australia">¿1GB es mayor a 1024KB?</string>
-    <string name="question_oceans">¿Una 3090 es mejor que una 3050?</string>
-    <string name="question_mideast">¿El ratón es lo mismo que el mouse?</string>
-    <string name="question_africa">¿Linux es más usado que Windows?</string>
-    <string name="question_americas">¿Elon Musk es el creador de Tesla?</string>
-    <string name="question_asia">¿El RGB da más FPS?</string>
+    <string name="app_name">TiQuiz</string>
+    <string name="question_gb">¿1GB es mayor a 1024KB?</string>
+    <string name="question_grafica">¿Una 3090 es mejor que una 3050?</string>
+    <string name="question_mouse">¿El ratón es lo mismo que el mouse?</string>
+    <string name="question_linux">¿Linux es más usado que Windows?</string>
+    <string name="question_twitter">¿Elon Musk es el creador de Tesla?</string>
+    <string name="question_rgb">¿El RGB da más FPS?</string>
+    <string name="question_ram">¿La ram es de utilidad en una pc?</string>
+    <string name="question_ssd">¿Es más rápido un SSD que un dico duro mécanico?</string>
+    <string name="question_halo">¿El nombre del protagonista del juego HALO se llama master chief?</string>
+    <string name="question_pro">¿Intel es mejor que AMD?</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="next_button">Siguiente</string>
