@@ -1,15 +1,15 @@
-package com.bignerdranch.android.geoquiz
+package com.josue.android.TiQuiz
 
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.bignerdranch.android.geoquiz.databinding.ActivityCheatBinding
+import com.josue.android.TiQuiz.databinding.ActivityCheatBinding
 
-const val EXTRA_ANSWER_SHOWN = "com.bignerdranch.android.geoquiz.answer_shown"
+const val EXTRA_ANSWER_SHOWN = "com.josue.android.TiQuiz.answer_shown"
 private const val EXTRA_ANSWER_IS_TRUE =
-    "com.bignerdranch.android.geoquiz.answer_is_true"
+    "com.josue.android.TiQuiz.answer_is_true"
 
 class CheatActivity : AppCompatActivity() {
 

@@ -1,4 +1,4 @@
-package com.bignerdranch.android.geoquiz
+package com.josue.android.TiQuiz
 
 import androidx.test.core.app.ActivityScenario
 import androidx.test.core.app.ActivityScenario.launch

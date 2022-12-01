@@ -1,4 +1,4 @@
-package com.bignerdranch.android.geoquiz
+package com.josue.android.TiQuiz
 
 import androidx.lifecycle.SavedStateHandle
 import org.junit.Assert.assertEquals
@@ -9,15 +9,15 @@ class QuizViewModelTest {
     fun initiallyProvidesFirstQuestionText() {
         val savedStateHandle = SavedStateHandle()
         val quizViewModel = QuizViewModel(savedStateHandle)
-        assertEquals(R.string.question_australia, quizViewModel.currentQuestionText)
+        assertEquals(R.string.question_gb, quizViewModel.currentQuestionText)
     }
 
     @Test
     fun wrapsAroundQuestionBank() {
         val savedStateHandle = SavedStateHandle(mapOf(CURRENT_INDEX_KEY to 5))
         val quizViewModel = QuizViewModel(savedStateHandle)
-        assertEquals(R.string.question_asia, quizViewModel.currentQuestionText)
+        assertEquals(R.string.question_grafica, quizViewModel.currentQuestionText)
         quizViewModel.moveToNext()
-        assertEquals(R.string.question_australia, quizViewModel.currentQuestionText)
+        assertEquals(R.string.question_gb, quizViewModel.currentQuestionText)
     }
 }

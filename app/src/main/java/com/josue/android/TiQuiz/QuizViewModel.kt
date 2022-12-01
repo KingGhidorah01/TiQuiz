@@ -1,4 +1,4 @@
-package com.bignerdranch.android.geoquiz
+package com.josue.android.TiQuiz
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
